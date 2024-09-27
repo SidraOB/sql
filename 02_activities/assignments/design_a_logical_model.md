@@ -6,7 +6,7 @@ Create a logical model for a small bookstore. 📚
 
 At the minimum it should have employee, order, sales, customer, and book entities (tables). Determine sensible column and table design based on what you know about these concepts. Keep it simple, but work out sensible relationships to keep tables reasonably sized. Include a date table. There are several tools online you can use, I'd recommend [_Draw.io_](https://www.drawio.com/) or [_LucidChart_](https://www.lucidchart.com/pages/).
 
-![Logical model for Bookstore](Lgical%20model%20for%20bookstore.png)
+![Logical model for Bookstore](../../sql/02_activities/assignments/images/Lgical model for bookstore.png)
 
 ## Question 2
 We want to create employee shifts, splitting up the day into morning and evening. Add this to the ERD.
@@ -18,7 +18,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 
 _Hint, search type 1 vs type 2 slowly changing dimensions._
 
-![Type 1 and Type 2 SCD](Type%201%20and%20Type%202%20SCD.png)
+![Type 1 and Type 2 SCD](../../sql/02_activities/assignments/images/Type 1 and Type 2 SCD.png)
 
 Bonus: Are there privacy implications to this, why or why not?
 ```
